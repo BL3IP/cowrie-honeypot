@@ -1,0 +1,11 @@
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: cowrie
+    ports:
+      - "2222:2222"     # SSH honeypot (map to 22 on a real internet-facing host)
+      - "2223:2223"     # Telnet honeypot
+    restart: unless-stopped
+    # On a real VPS, mount a volume to persist logs:
+    # volumes:
+    #   - ./cowrie-logs:/cowrie/cowrie-git/var/log/cowrie

@@ -1,0 +1,20 @@
+﻿
+2026-06-28T05:23:28+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 172.17.0.1:49786 (172.17.0.2:2222) 
+[session: 7125af51dcb2]
+2026-06-28T05:23:28+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'root'/b'123456'] failed
+2026-06-28T05:23:29+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 172.17.0.1:49798 (172.17.0.2:2222) 
+[session: 79b306662ceb]
+2026-06-28T05:23:29+0000 [HoneyPotSSHTransport,1,172.17.0.1] login attempt [b'admin'/b'admin'] succeeded
+2026-06-28T05:23:29+0000 [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,172.17.0.1] 
+CMD: whoami
+2026-06-28T05:23:29+0000 [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,1,172.17.0.1] 
+Command found: whoami 
+2026-06-28T05:23:29+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 172.17.0.1:49804 (172.17.0.2:2222) 
+[session: 878eb63358c5]
+2026-06-28T05:23:29+0000 [HoneyPotSSHTransport,2,172.17.0.1] login attempt [b'root'/b'letmein123'] succeeded
+2026-06-28T05:23:29+0000 [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,2,172.17.0.1] 
+CMD: whoami
+2026-06-28T05:23:29+0000 [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,2,172.17.0.1] 
+Command found: whoami 
+
+
